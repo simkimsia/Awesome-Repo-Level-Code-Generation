@@ -13,12 +13,13 @@
 
 - [📚 Contents](#-contents)
 - [💥 Repo-Level Issue Resolution](#-repo-level-issue-resolution)
-- [🤖 Repo-Level Code Completion](#-repo-level-code-completion)
+- [🤖 Repo-Level Code Generation](#-repo-level-code-generation)
 - [🔄 Repo-Level Code Translation](#-repo-level-code-translation)
 - [🔍 Repo-Level Code QA](#-repo-level-code-qa)
 - [📊 Datasets and Benchmarks](#-datasets-and-benchmarks)
+- [Star History](#star-history)
 
-## 💥 Repo-Level Issue Resolution 
+## 💥 Repo-Level Issue Resolution
 
 - SWE-Exp: Experience-Driven Software Issue Resolution [2025-07-arXiv] [[📄 paper](http://arxiv.org/abs/2507.23361)] [[🔗 repo](https://github.com/YerbaPage/SWE-Exp)]
 
@@ -32,7 +33,7 @@
 
 - OpenHands-Versa: Coding Agents with Multimodal Browsing are Generalist Problem Solvers [2025-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2506.03011)] [[🔗 repo](https://github.com/adityasoni9998/OpenHands-Versa)]
 
-- CoRet: Improved Retriever for Code Editing [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.24715)] 
+- CoRet: Improved Retriever for Code Editing [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.24715)]
 
 - Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.22954)] [[🔗 repo](https://github.com/jennyzzt/dgm)]
 
@@ -94,63 +95,64 @@
 
 - SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering [2024-NeurIPS] [[📄 paper](https://arxiv.org/abs/2405.15793)] [[🔗 repo](https://github.com/SWE-agent/SWE-agent)]
 
-## 🤖 Repo-Level Code Completion
+## 🤖 Repo-Level Code Generation
+
 - Enhancing Project-Specific Code Completion by Inferring Internal API Information [2025-TSE-EarlyAccess] [[📄 paper](https://ieeexplore.ieee.org/abstract/document/11096713)] [[🔗 repo](https://github.com/ZJU-CTAG/InferCom)]
 
-- CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation [2025-04-arXiv] [[📄 paper](https://arxiv.org/abs/2504.10046)]
+- CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation [2025-04-arXiv] [[📄 paper](https://arxiv.org/abs/2504.10046)] ✅✅
 
-- CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases [2025-04-NAACL] [[📄 paper](https://aclanthology.org/2025.naacl-long.7/)]
+- CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases [2025-04-NAACL] [[📄 paper](https://aclanthology.org/2025.naacl-long.7/)] ✅✅
 
-- RTLRepoCoder: Repository-Level RTL Code Completion through the Combination of Fine-Tuning and Retrieval Augmentation [2025-04-arXiv] [[📄 paper](https://arxiv.org/abs/2504.08862)]
+- RTLRepoCoder: Repository-Level RTL Code Completion through the Combination of Fine-Tuning and Retrieval Augmentation [2025-04-arXiv] [[📄 paper](https://arxiv.org/abs/2504.08862)] ✅✅
 
-- Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs [2025-04-AAAI] [[📄 paper](https://ojs.aaai.org/index.php/AAAI/article/view/34782)] [[🔗 repo](https://github.com/Hambaobao/HCP-Coder)]
+- Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs [2025-04-AAAI] [[📄 paper](https://ojs.aaai.org/index.php/AAAI/article/view/34782)] [[🔗 repo](https://github.com/Hambaobao/HCP-Coder)] ✅✅
 
-- What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.20589)]
+- What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.20589)] ✅✅
 
-- REPOFILTER: Adaptive Retrieval Context Trimming for Repository-Level Code Completion [2025-04-OpenReview] [[📄 paper](https://openreview.net/forum?id=oOSeOEXrFA)]
+- REPOFILTER: Adaptive Retrieval Context Trimming for Repository-Level Code Completion [2025-04-OpenReview] [[📄 paper](https://openreview.net/forum?id=oOSeOEXrFA)] ✅✅
 
-- Improving FIM Code Completions via Context & Curriculum Based Learning [2024-12-arXiv] [[📄 paper](https://arxiv.org/abs/2412.16589)]
+- Improving FIM Code Completions via Context & Curriculum Based Learning [2024-12-arXiv] [[📄 paper](https://arxiv.org/abs/2412.16589)] ✅✅
 
-- ContextModule: Improving Code Completion via Repository-level Contextual Information [2024-12-arXiv] [[📄 paper](https://arxiv.org/abs/2412.08063)]
+- ContextModule: Improving Code Completion via Repository-level Contextual Information [2024-12-arXiv] [[📄 paper](https://arxiv.org/abs/2412.08063)] ✅✅
 
-- A^3-CodGen: A Repository-Level Code Generation Framework for Code Reuse With Local-Aware, Global-Aware, and Third-Party-Library-Aware [2024-12-TSE] [[📄 paper](https://www.computer.org/csdl/journal/ts/2024/12/10734067/21iLh4j0oG4)]
+- A^3-CodGen: A Repository-Level Code Generation Framework for Code Reuse With Local-Aware, Global-Aware, and Third-Party-Library-Aware [2024-12-TSE] [[📄 paper](https://www.computer.org/csdl/journal/ts/2024/12/10734067/21iLh4j0oG4)] ✅✅
 
-- RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation [2024-09-arXiv] [[📄 paper](https://arxiv.org/abs/2409.13122)]
-  
-- RAMBO: Enhancing RAG-based Repository-Level Method Body Completion [2024-09-arXiv] [[📄 paper](https://arxiv.org/abs/2409.15204)] [[🔗 repo](https://github.com/ise-uet-vnu/rambo)]
+- RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation [2024-09-arXiv] [[📄 paper](https://arxiv.org/abs/2409.13122)] ✅✅
+
+- RAMBO: Enhancing RAG-based Repository-Level Method Body Completion [2024-09-arXiv] [[📄 paper](https://arxiv.org/abs/2409.15204)] [[🔗 repo](https://github.com/ise-uet-vnu/rambo)] ✅✅
 
 - RLCoder: Reinforcement Learning for Repository-Level Code Completion [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2407.19487)] [[🔗 repo](https://github.com/DeepSoftwareAnalytics/RLCoder)]
-  
+
 - STALL+: Boosting LLM-based Repository-level Code Completion with Static Analysis [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.10018)]
-  
+
 - GraphCoder: Enhancing Repository-Level Code Completion via Code Context Graph-based Retrieval and Language Model [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.07003)]
-  
+
 - Enhancing Repository-Level Code Generation with Integrated Contextual Information [2024-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2406.03283)]
-  
+
 - R2C2-Coder: Enhancing and Benchmarking Real-world Repository-level Code Completion Abilities of Code Large Language Models [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.01359)]
-  
+
 - Natural Language to Class-level Code Generation by Iterative Tool-augmented Reasoning over Repository [2024-05-arXiv] [[📄 paper](https://arxiv.org/abs/2405.01573)] [[🔗 repo](https://github.com/microsoft/repoclassbench)]
-  
+
 - Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.16792)] [[🔗 repo](https://github.com/CGCL-codes/naturalcc/tree/main/examples/cocogen)]
-  
+
 - Repoformer: Selective Retrieval for Repository-Level Code Completion [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.10059)] [[🔗 repo](https://repoformer.github.io/)]
-  
+
 - RepoHyper: Search-Expand-Refine on Semantic Graphs for Repository-Level Code Completion [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.06095)] [[🔗 repo](https://github.com/FSoft-AI4Code/RepoHyper)]
-  
+
 - RepoMinCoder: Improving Repository-Level Code Generation Based on Information Loss Screening [2024-07-Internetware] [[📄 paper](https://dl.acm.org/doi/10.1145/3671016.3674819)]
-  
+
 - CodePlan: Repository-Level Coding using LLMs and Planning [2024-07-FSE] [[📄 paper](https://dl.acm.org/doi/abs/10.1145/3643757)] [[🔗 repo](https://github.com/microsoft/codeplan)]
 
 - DraCo: Dataflow-Guided Retrieval Augmentation for Repository-Level Code Completion [2024-05-ACL] [[📄 paper](https://aclanthology.org/2024.acl-long.431/)] [[🔗 repo](https://github.com/nju-websoft/DraCo)]
 
-- RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation [2023-10-EMNLP] [[📄 paper](https://aclanthology.org/2023.emnlp-main.151/)] [[🔗 repo](https://github.com/microsoft/CodeT/tree/main/RepoCoder)]
-  
+- RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation [2023-10-EMNLP] [[📄 paper](https://aclanthology.org/2023.emnlp-main.151/)] [[🔗 repo](https://github.com/microsoft/CodeT/tree/main/RepoCoder)] ✅✅
+
 - Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context [2023-09-NeurIPS] [[📄 paper](https://neurips.cc/virtual/2023/poster/70362)] [[🔗 repo](https://aka.ms/monitors4codegen)]
-  
+
 - RepoFusion: Training Code Models to Understand Your Repository [2023-06-arXiv] [[📄 paper](https://arxiv.org/abs/2306.10998)] [[🔗 repo](https://github.com/ServiceNow/RepoFusion)]
-  
+
 - Repository-Level Prompt Generation for Large Language Models of Code [2023-06-ICML] [[📄 paper](https://proceedings.mlr.press/v202/shrivastava23a.html)] [[🔗 repo](https://github.com/shrivastavadisha/repo_level_prompt_generation)]
-  
+
 - Fully Autonomous Programming with Large Language Models [2023-06-GECCO] [[📄 paper](https://dl.acm.org/doi/pdf/10.1145/3583131.3590481)] [[🔗 repo](https://github.com/KoutchemeCharles/aied2023)]
 
 ## 🔄 Repo-Level Code Translation
@@ -159,13 +161,13 @@
 
 - C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques [2025-01-arXiv] [[📄 paper](https://www.arxiv.org/pdf/2501.14257)] [[🔗 repo](https://github.com/vikramnitin9/c2saferrust)]
 
-- Scalable, Validated Code Translation of Entire Projects using Large Language Models [2025-06-PLDI] [[📄 paper](https://doi.org/10.5281/zenodo.15242640)] 
+- Scalable, Validated Code Translation of Entire Projects using Large Language Models [2025-06-PLDI] [[📄 paper](https://doi.org/10.5281/zenodo.15242640)]
 
 - Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis [2024-12-arxiv] [[📄 paper](https://arxiv.org/pdf/2412.14234)] [[🕸️ website](https://syzygy-project.github.io/)]
 
 ## 🔍 Repo-Level Code QA
 
-- Decompositional Reasoning for Graph Retrieval with Large Language Models [2025-06-arXiv] [[📄 paper](https://arxiv.org/abs/2506.13380)]
+- Decompositional Reasoning for Graph Retrieval with Large Language Models [2025-06-arXiv] [[📄 paper](https://arxiv.org/abs/2506.13380)] ✅✅
 
 - LongCodeBench: Evaluating Coding LLMs at 1M Context Windows [2025-05-arXiv] [[📄 paper](https://arxiv.org/pdf/2505.07897)]
 
@@ -196,7 +198,7 @@
 
 - **SWE-Synth**: Synthesizing Verifiable Bug-Fix Data to Enable Large Language Models in Resolving Real-World Bugs [2025-04-arXiv] [[📄 paper](https://arxiv.org/abs/2504.14757v1)] [[🔗 repo](https://github.com/FSoft-AI4Code/SWE-Synth)]
 
-- Are "Solved Issues" in SWE-bench Really Solved Correctly? An Empirical Study  [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.15223)] 
+- Are "Solved Issues" in SWE-bench Really Solved Correctly? An Empirical Study  [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.15223)]
 
 - **Unveiling Pitfalls**: Understanding Why AI-driven Code Agents Fail at GitHub Issue Resolution [2025-03-arXiv] [[📄 paper](https://arxiv.org/pdf/2503.12374)]
 
