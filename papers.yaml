@@ -1,0 +1,913 @@
+# Repository-Level Code Intelligence Papers Database
+# Categories correspond to source .bib files
+categories:
+  code_generation:
+    description: "Repository-level code generation and completion papers"
+    source_file: "code_generation.bib"
+  code_qa:
+    description: "Repository-level question answering and code search papers"
+    source_file: "code_qa.bib"
+  code_translation:
+    description: "Repository-level code translation and transformation papers"
+    source_file: "code_translation.bib"
+  issue_resolution:
+    description: "Repository-level issue resolution and bug fixing papers"
+    source_file: "issue_resolution.bib"
+
+# All unique tags compiled from annotated entries
+all_tags:
+  - RAG
+  - Iterative
+  - Benchmark
+  - FullContext
+  - LLMAsAJudge
+  - Dependency
+  - KnowledgeGraph
+  - GraphQueries
+  - TwoStage
+  - AutoRetrieval
+  - LiveEvaluation
+  - Training
+  - GraphRetrieval
+  - LLMReasoning
+  - QuestionAnswering
+  - HybridRetrieval
+  - KnowledgeGraphs
+  - EmpiricalStudy
+  - BugTaxonomy
+  - PromptCrafting
+  - LLM-vs-Transpiler
+  - Graph
+  - Finetuning
+  - ContextPruning
+  - Agentic
+  - AgenticSearch
+  - Bigraph
+  - DualGraph
+  - CodeGraphDatabase
+  - MultiAgent
+  - ChainOfThought
+  - CurriculumLearning
+  - CodeKnowledgeGraph
+  - LocalAware
+  - GlobalAware
+  - ThirdPartyLibraryAware
+  - VerbalReinforcement
+  - VRL
+  - AgentGuidance
+  - Hierarchical
+  - DualMemory
+  - EpisodicMemory
+  - SemanticMemory
+  - Multimodal
+  - GeneralistAgent
+  - DenseRetriever
+  - CallGraph
+  - SelfImproving
+  - OpenEndedness
+  - EvolutionarySearch
+  - LCLMs
+  - ScaffoldFree
+  - RL
+  - Framework
+  - TestTimeCompute
+  - ProcessRewardModel
+  - KnowledgeGraph
+  - PathGuided
+  - MultiHopReasoning
+  - CallGraphConstruction
+  - Prompting
+  - Alignment
+  - DPO
+  - InferenceTimeCompute
+  - DynamicActionResampling
+  - HeterogeneousGraph
+  - MethodBodyCompletion
+  - MultiHop
+  - SoftwareEvolution
+  - TwoStage
+  - BM25
+  - PASS_TO_PASS
+  - TestTimeCompute
+  - SerialScaling
+  - ParallelScaling
+  - EnsembleSelection
+  - Environment
+  - Verifier
+  - VisualData
+  - VLM
+  - FineGrainedDescription
+  - StructuredSummarization
+  - ContinuousLearning
+  - Reflection
+  - HierarchicalExperiencePool
+  - BugReproduce
+  - ReflexionMemory
+  - MultiAgent
+  - CodeAnalysis
+  - LanguageServerProtocols
+  - RepositoryUnderstanding
+  - FaultLocalization
+  - PatchGeneration
+  - MCTS
+  - HybridValueFunction
+  - MultiAgentDebate
+  - StaticCodeAnalysis
+  - SBFL
+  - IterativeSearch
+  - CodeIntentExtraction
+  - Agentless
+  - HierarchicalProcess
+  - LineLevelGraph
+  - EgoGraphs
+  - SubGraphRetrieval
+  - TopDown
+  - MonteCarloTreeSearch
+
+# Papers database with BibTeX entries and annotations
+papers:
+  # Code Generation Category
+  zhang2023repocoder:
+    bibtex:
+      title: "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation"
+      author: "Zhang, Fengji and Chen, Bei and Zhang, Yue and Keung, Jacky and Liu, Jin and Zan, Daoguang and Mao, Yi and Lou, Jian-Guang and Chen, Weizhu"
+      booktitle: "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+      pages: "2471--2484"
+      year: "2023"
+    category: "code_generation"
+    annotation:
+      method: "streamlines the repository-level code completion process by incorporating a similarity-based retriever and a pre-trained code language model in an iterative retrieval-generation pipeline"
+      context_strategy: "RAG"
+      tags: ["RAG", "Iterative"]
+      link: "https://aclanthology.org/2023.emnlp-main.151/"
+
+  codeRAG:
+    bibtex:
+      title: "CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation"
+      author: "Jia Li and Xianjie Shi and Kechi Zhang and Lei Li and Ge Li and Zhengwei Tao and Jia Li and Fang Liu and Chongyang Tao and Zhi Jin"
+      year: "2025"
+      eprint: "2504.10046"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2504.10046"
+    category: "code_generation"
+    annotation:
+      method: "Constructs dual graphs: a requirement graph modeling functional relationships and a DS-code graph capturing dependency/semantic relationships. Implements code-oriented agentic reasoning with specialized tools for web search, graph traversal, and code testing. Uses bigraph mapping to connect requirements to corresponding code elements"
+      context_strategy: "RAG, agentic search, graph"
+      tags: ["RAG", "DualGraph", "Agentic", "AgenticSearch", "Bigraph"]
+      link: "https://arxiv.org/abs/2504.10046"
+
+  codexgraph:
+    bibtex:
+      title: "CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases"
+      author: "Liu, Xiangyan and Lan, Bo and Hu, Zhiyuan and Liu, Yang and Zhang, Zhicheng and Wang, Fei and Shieh, Michael Qizhe and Zhou, Wenmeng"
+      booktitle: "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
+      month: "apr"
+      year: "2025"
+      address: "Albuquerque, New Mexico"
+      publisher: "Association for Computational Linguistics"
+      url: "https://aclanthology.org/2025.naacl-long.7/"
+      doi: "10.18653/v1/2025.naacl-long.7"
+      pages: "142--160"
+      ISBN: "979-8-89176-189-6"
+    category: "code_generation"
+    annotation:
+      method: "Code Graph Database Construction: A systematic process that extracts code symbols and their relationships from repositories, storing them in a structured graph database format. LLM-Database Interaction: A multi-agent system that enables LLMs to formulate and execute sophisticated queries against the code graph database"
+      context_strategy: "graph"
+      tags: ["Graph", "CodeGraphDatabase", "MultiAgent"]
+      link: "https://aclanthology.org/2025.naacl-long.7/"
+
+  rtlrepocoder:
+    bibtex:
+      title: "RTLRepoCoder: Repository-Level RTL Code Completion through the Combination of Fine-Tuning and Retrieval Augmentation"
+      author: "Peiyang Wu and Nan Guo and Junliang Lv and Xiao Xiao and Xiaochun Ye"
+      year: "2025"
+      eprint: "2504.08862"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2504.08862"
+    category: "code_generation"
+    annotation:
+      method: "incorporates specific fine-tuning and Retrieval-Augmented Generation (RAG) for repository-level Verilog code completion"
+      context_strategy: "RAG"
+      tags: ["Finetuning", "RAG"]
+      link: "https://arxiv.org/abs/2504.08862"
+
+  hierarchicalcontext:
+    bibtex:
+      title: "Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs"
+      volume: "39"
+      url: "https://ojs.aaai.org/index.php/AAAI/article/view/34782"
+      DOI: "10.1609/aaai.v39i24.34782"
+      number: "24"
+      journal: "Proceedings of the AAAI Conference on Artificial Intelligence"
+      author: "Zhang, Lei and Li, Yunshui and Li, Jiaming and Xia, Xiaobo and Yang, Jiaxi and Luo, Run and Wang, Minzheng and Chen, Longze and Liu, Junhao and Qu, Qiang and Yang, Min"
+      year: "2025"
+      month: "Apr."
+      pages: "25886-25894"
+    category: "code_generation"
+    annotation:
+      method: "models the code repository at the function level, maintaining the topological dependencies between code files while removing a large amount of irrelevant code content"
+      context_strategy: "Graph(Tree)"
+      tags: ["Graph", "ContextPruning"]
+      link: "https://ojs.aaai.org/index.php/AAAI/article/view/34782"
+
+  gu2025retrieveeffectiveretrievalaugmentedcode:
+    bibtex:
+      title: "What to Retrieve for Effective Retrieval-Augmented Code Generation? An Empirical Study and Beyond"
+      author: "Wenchao Gu and Juntao Chen and Yanlin Wang and Tianyue Jiang and Xingzhe Li and Mingwei Liu and Xilin Liu and Yuchi Ma and Zibin Zheng"
+      year: "2025"
+      eprint: "2503.20589"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2503.20589"
+    category: "code_generation"
+    annotation:
+      method: "Repository API Processing: Generates natural language descriptions for repository APIs, creates embeddings for these descriptions to facilitate retrieval. Query Processing: Breaks down user queries into implementation steps using chain-of-thought prompting, generates API descriptions based on these implementation steps, extends these descriptions for better matching with repository APIs. Context-Integrated Code Generation: Retrieves relevant APIs by matching the semantic descriptions, integrates the retrieved APIs with contextual information, generates the target code based on the combined information"
+      context_strategy: "RAG"
+      tags: ["RAG", "ChainOfThought"]
+      link: "https://arxiv.org/abs/2503.20589"
+
+  sagtani2024improvingfimcodecompletions:
+    bibtex:
+      title: "Improving FIM Code Completions via Context & Curriculum Based Learning"
+      author: "Hitesh Sagtani and Rishabh Mehrotra and Beyang Liu"
+      year: "2024"
+      eprint: "2412.16589"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.IR"
+      url: "https://arxiv.org/abs/2412.16589"
+    category: "code_generation"
+    annotation:
+      method: "develop a curriculum dataset by extracting hard-to-complete patterns from code repositories and generate context examples using semantic and static analysis tools (e.g. TSC compiler), then finetune"
+      context_strategy: "Focuses on enhancing code completion models by incorporating relevant contextual information from the code repository during training, particularly for challenging completion scenarios."
+      tags: ["Finetuning", "CurriculumLearning"]
+      link: "https://arxiv.org/abs/2412.16589"
+
+  li2025repofilter:
+    bibtex:
+      title: "REPOFILTER: Adaptive Retrieval Context Trimming for Repository-Level Code Completion"
+      author: "Yanzhou Li and Shangqing Liu and Kangjie Chen and Tianwei Zhang and Yang Liu"
+      year: "2025"
+      url: "https://openreview.net/forum?id=oOSeOEXrFA"
+    category: "code_generation"
+    annotation:
+      method: "Uses a novel likelihood-based metric to classify retrieved code chunks as positive, neutral, or negative. A model is then trained to perform on-demand retrieval and filter out these negative and neutral chunks, retaining only the beneficial \"positive\" contexts for the final code generation. This \"filter-then-generate\" approach enhances accuracy and efficiency by reducing the context length provided to the language model."
+      context_strategy: "Adaptive context trimming"
+      tags: ["RAG", "ContextPruning", "AutoRetrieval"]
+      link: "https://openreview.net/forum?id=oOSeOEXrFA"
+
+  contextmodule:
+    bibtex:
+      title: "ContextModule: Improving Code Completion via Repository-level Contextual Information"
+      author: "Zhanming Guan and Junlin Liu and Jierui Liu and Chao Peng and Dexin Liu and Ningyuan Sun and Bo Jiang and Wenchao Li and Jie Liu and Hang Zhu"
+      year: "2024"
+      eprint: "2412.08063"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2412.08063"
+    category: "code_generation"
+    annotation:
+      method: "ContextModule tracks user interactions across files, identifies functionally similar code within the repository, and utilizes a Code Knowledge Graph (CKG) for precise symbol definitions"
+      context_strategy: "Graph"
+      tags: ["Graph", "CodeKnowledgeGraph"]
+      link: "https://arxiv.org/abs/2412.08063"
+
+  A^3:
+    bibtex:
+      title: "A3-CodGen: A Repository-Level Code Generation Framework for Code Reuse With Local-Aware, Global-Aware, and Third-Party-Library-Aware"
+      author: "Liao, Dianshu and Pan, Shidong and Sun, Xiaoyu and Ren, Xiaoxue and Huang, Qing and Xing, Zhenchang and Jin, Huan and Li, Qinying"
+      journal: "IEEE Transactions on Software Engineering"
+      year: "2024"
+      volume: "50"
+      number: "12"
+      ISSN: "1939-3520"
+      pages: "3369-3384"
+      doi: "10.1109/TSE.2024.3486195"
+      url: "https://doi.ieeecomputersociety.org/10.1109/TSE.2024.3486195"
+      publisher: "IEEE Computer Society"
+      address: "Los Alamitos, CA, USA"
+      month: "dec"
+    category: "code_generation"
+    annotation:
+      method: "systematically extracts, fuses, and feeds local-aware, global-aware, and third-party-library-aware information from a code repository"
+      context_strategy: ""
+      tags: ["LocalAware", "GlobalAware", "ThirdPartyLibraryAware"]
+      link: "https://www.computer.org/csdl/journal/ts/2024/12/10734067/21iLh4j0oG4"
+
+  repogenreflex:
+    bibtex:
+      title: "RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation"
+      author: "Jicheng Wang and Yifeng He and Hao Chen"
+      year: "2024"
+      eprint: "2409.13122"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2409.13122"
+    category: "code_generation"
+    annotation:
+      method: "RepoGenReflex is a novel framework that enhances repository-level code completion by dynamically optimizing retrieval and generation through an iterative process integrating Retrieval-Augmented Generation (RAG) with Verbal Reinforcement Learning (VRL) for continuous improvement based on linguistic feedback and past experience"
+      context_strategy: "RAG"
+      tags: ["RAG", "VerbalReinforcement", "VRL"]
+      link: "https://arxiv.org/abs/2409.13122"
+
+  bui2024rambo:
+    bibtex:
+      title: "Rambo: Enhancing rag-based repository-level method body completion"
+      author: "Bui, Tuan-Dung and Luu-Van, Duc-Thieu and Nguyen, Thanh-Phat and Nguyen, Thu-Trang and Nguyen, Son and Vo, Hieu Dinh"
+      journal: "arXiv preprint arXiv:2409.15204"
+      year: "2024"
+      url: "https://arxiv.org/abs/2409.15204"
+    category: "code_generation"
+    annotation:
+      method: "A Retrieval-Augmented Generation (RAG)-based approach for Method Body Completion (MBC). Instead of just retrieving similar method bodies, RAMBO identifies and utilizes essential repository-specific elements like classes, methods, and variables, along with their relevant usages."
+      context_strategy: "uses a \"sketch-and-fill\" approach: a code LLM generates a rough \"sketch\" of the method, which then guides the retrieval of essential repository elements and their usages to \"fill\" in context for accurate code generation."
+      tags: ["MethodBodyCompletion", "RAG"]
+      link: "https://arxiv.org/abs/2409.15204"
+
+
+
+  # Code QA Category
+  chen2025coreqa:
+    bibtex:
+      title: "CoReQA: Uncovering Potentials of Language Models in Code Repository Question Answering"
+      author: "Chen, Jialiang and Zhao, Kaifa and Liu, Jie and Peng, Chao and Liu, Jierui and Zhu, Hang and Gao, Pengfei and Yang, Ping and Deng, Shuiguang"
+      journal: "arXiv preprint arXiv:2501.03447"
+      year: "2025"
+    category: "code_qa"
+    annotation:
+      method: "Repository-level QA benchmark using GitHub issues/comments from 176 repositories. LLMs auto-generate QA pairs from issue discussions. LLM-as-a-judge evaluation on accuracy, completeness, relevance, clarity"
+      context_strategy: "Three settings: zero-shot, BM25 retrieval, full repository context. Focuses on cross-file dependencies and synthesizing code + discussions"
+      tags: ["LLMAsAJudge", "Dependency", "RAG", "Benchmark"]
+      link: "https://arxiv.org/pdf/2501.03447"
+
+  abedu2025repochat:
+    bibtex:
+      title: "RepoChat: An LLM-Powered Chatbot for GitHub Repository Question-Answering"
+      author: "Abedu, S and Menneron, L and Khatoonabadi, SH and Shihab, E"
+      journal: "IEEE/ACM 22nd International Conference on Mining Software Repositories (MSR)"
+      year: "2025"
+    category: "code_qa"
+    annotation:
+      method: "Web-based tool combining LLMs + knowledge graphs. Ingests GitHub metadata (commits, issues, files, users) to build KG. Translates NL questions to graph queries (Cypher/SPARQL), uses results as LLM context"
+      context_strategy: "Structured KG from repository metadata. Graph queries retrieve specific entity relationships, providing focused context for LLM response generation"
+      tags: ["KnowledgeGraph", "GraphQueries"]
+      link: "https://2025.msrconf.org/details/msr-2025-data-and-tool-showcase-track/35/RepoChat-An-LLM-Powered-Chatbot-for-GitHub-Repository-Question-Answering"
+
+  strich2024improving:
+    bibtex:
+      title: "On Improving Repository-Level Code QA for Large Language Models"
+      author: "Strich, Jan and Schneider, Florian and Nikishina, Irina and Biemann, Chris"
+      booktitle: "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)"
+      pages: "209--244"
+      year: "2024"
+    category: "code_qa"
+    annotation:
+      method: "Framework for private repository QA. Introduces Spyder-CodeQA benchmark testing code semantics, dependencies, meta-info. Fine-tunes LMs on self-generated data via self-alignment. RAG pipeline with vector embeddings (ChromaDB) for chunk retrieval"
+      context_strategy: "RAG retrieves semantically similar repository chunks via vector embeddings. Fine-tuning encodes repository-specific knowledge into model parameters"
+      tags: ["RAG", "Training", "LLMAsAJudge", "Benchmark"]
+      link: "https://aclanthology.org/2024.luhme-srw.28/"
+
+  sahu2024codequeries:
+    bibtex:
+      title: "Codequeries: A dataset of semantic queries over code"
+      author: "Sahu, Surya Prakash and Mandal, Madhurima and Bharadwaj, Shikhar and Kanade, Aditya and Maniatis, Petros and Shevade, Shirish"
+      booktitle: "Proceedings of the 17th Innovations in Software Engineering Conference"
+      pages: "1--11"
+      year: "2024"
+    category: "code_qa"
+    annotation:
+      method: "Introduces CodeQueries, a dataset of semantic queries over Python code. Queries are about code semantics, context is file level, and answers are code spans. Curated based on CodeQL, includes both positive and negative examples, and queries requiring single-hop and multi-hop reasoning"
+      context_strategy: "RAG retrieves relevant code snippets"
+      tags: ["Benchmark"]
+      link: "https://arxiv.org/abs/2209.08372"
+
+  song2025repochatarena:
+    bibtex:
+      title: "RepoChat Arena: A Live Benchmark for AI Software Engineers"
+      author: "Song, Yifan and Jain, Naman and Shetty, Manish and Chiang, Wei-Lin and Chen, Valerie and Chi, Wayne and Angelopoulos, Anastasios N. and Stoica, Ion"
+      year: "2025"
+      howpublished: "\\url{https://blog.lmarena.ai/blog/2025/repochat-arena/}"
+      note: "UC Berkeley, CMU"
+    category: "code_qa"
+    annotation:
+      method: "Live benchmark for AI software engineers using collaborative two-model approach. Retriever model extracts relevant files from GitHub repository, answer model generates responses using retrieved context. Supports issue resolution, PR review, code implementation, and high-level repository questions"
+      context_strategy: "Automatic file retrieval based on user queries, concatenating extracted file contents with user input as prompt for answer generation"
+      tags: ["Benchmark", "TwoStage", "AutoRetrieval", "LiveEvaluation"]
+      link: "https://blog.lmarena.ai/blog/2025/repochat-arena/"
+
+  six2025decompositional:
+    bibtex:
+      title: "Decompositional Reasoning for Graph Retrieval with Large Language Models"
+      author: "Six, Valentin and Dufraisse, Evan and de Chalendar, Gaël"
+      journal: "arXiv preprint arXiv:2506.13380"
+      year: "2025"
+    category: "code_qa"
+    annotation:
+      method: "Presents a method to improve how Large Language Models (LLMs) answer complex questions using knowledge graphs by decomposing a difficult question into a series of simpler subquestions. For each subquestion, a hybrid retrieval process fetches a relevant subgraph by considering both the subquestion and the original query. These subgraphs are then merged, providing structured context for the LLM to generate a final, more accurate answer"
+      context_strategy: "Context is a merged knowledge graph, created by combining smaller subgraphs retrieved for each decomposed subquestion, which guides the LLM to generate the final, accurate answer"
+      tags: ["GraphRetrieval", "LLMReasoning", "QuestionAnswering", "HybridRetrieval", "KnowledgeGraphs"]
+      link: "https://arxiv.org/abs/2506.13380"
+
+  rando2025longcodebench:
+    bibtex:
+      title: "LongCodeBench: Evaluating Coding LLMs at 1M Context Windows"
+      author: "Rando, Stefano and Romani, Luca and Sampieri, Alessio and Kyuragi, Yuta and Franco, Luca and Galasso, Fabio and Hashimoto, Tatsunori and Yang, John"
+      journal: "arXiv preprint arXiv:2505.07897"
+      year: "2025"
+    category: "code_qa"
+    annotation:
+      method: "Introduces LongCodeBench, a benchmark for evaluating coding LLMs at 1M context windows. Tests comprehension capabilities in realistic settings using real-world GitHub issues"
+      context_strategy: "both full context and RAG"
+      tags: ["Benchmark", "FullContext", "RAG"]
+      link: "https://arxiv.org/pdf/2505.07897"
+
+  # Code Translation Category
+  10.1145/3597503.3639226:
+    bibtex:
+      title: "Lost in Translation: A Study of Bugs Introduced by Large Language Models while Translating Code"
+      author: "Pan, Rangeet and Ibrahimzada, Ali Reza and Krishna, Rahul and Sankar, Divya and Wassi, Lambert Pouguem and Merler, Michele and Sobolev, Boris and Pavuluri, Raju and Sinha, Saurabh and Jabbarvand, Reyhaneh"
+      year: "2024"
+      isbn: "9798400702174"
+      publisher: "Association for Computing Machinery"
+      address: "New York, NY, USA"
+      url: "https://doi.org/10.1145/3597503.3639226"
+      doi: "10.1145/3597503.3639226"
+      booktitle: "Proceedings of the IEEE/ACM 46th International Conference on Software Engineering"
+      articleno: "82"
+      numpages: "13"
+      keywords: "code translation, bug taxonomy, llm"
+      location: "Lisbon, Portugal"
+      series: "ICSE '24"
+    category: "code_translation"
+    annotation:
+      method: "conducts a large-scale empirical evaluation (43 k translations over 5 languages and 7 LLMs) to reveal that current LLMs achieve only 2.1 – 47.3 % correctness, builds a 15-category taxonomy of translation bugs, compares LLMs with classic transpilers, and proposes an iterative prompt-crafting scheme that feeds the failing code, stack-trace / test diff, etc. back into the next prompt—boosting success rates by 5.5 % on average (up to 12 % for GPT-4)"
+      context_strategy: "Iterative prompt-crafting with feedback"
+      tags: ["EmpiricalStudy", "BugTaxonomy", "PromptCrafting", "Iterative", "LLM-vs-Transpiler"]
+      link: "https://doi.org/10.1145/3597503.3639226"
+
+  # Issue Resolution Category
+  da2025agentrlvrtrainingsoftwareengineering:
+    bibtex:
+      title: "Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards"
+      author: "Jeff Da and Clinton Wang and Xiang Deng and Yuntao Ma and Nikhil Barhate and Sean Hendryx"
+      year: "2025"
+      eprint: "2506.11425"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.CL"
+      url: "https://arxiv.org/abs/2506.11425"
+    category: "issue_resolution"
+    annotation:
+      method: "This work introduces Agent-RLVR, a framework that enhances RLVR effectiveness in challenging agentic settings by incorporating agent guidance, a mechanism that actively steers the agent toward successful trajectories using diverse informational cues, ranging from high level strategic plans to dynamic feedback on errors and environmental interactions"
+      context_strategy: "Builds upon Agentless's hierarchical localization process—progressively narrowing faults from file to function to line level, then augments it with agent guidance"
+      tags: ["RLVR", "AgentGuidance", "Hierarchical"]
+      link: "https://arxiv.org/abs/2506.11425"
+
+  mu2025experepairdualmemoryenhancedllmbased:
+    bibtex:
+      title: "EXPEREPAIR: Dual-Memory Enhanced LLM-based Repository-Level Program Repair"
+      author: "Fangwen Mu and Junjie Wang and Lin Shi and Song Wang and Shoubin Li and Qing Wang"
+      year: "2025"
+      eprint: "2506.10484"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2506.10484"
+    category: "issue_resolution"
+    annotation:
+      method: "EXPEREPAIR enhances LLM based code repair by leveraging dual memory, episodic memory of past fixes and semantic memory of abstract repair insights, to dynamically compose context-aware prompts that improve generalization across diverse issue scenarios"
+      context_strategy: "Adopts a hierarchical localization strategy: first identifying suspicious files based on the issue description and repository structure, and then localizing specific faulty lines within the identified file. Then enhances with test feedback and proposed dual memory method"
+      tags: ["DualMemory", "EpisodicMemory", "SemanticMemory", "Hierarchical"]
+      link: "https://arxiv.org/abs/2506.10484"
+
+  soni2025codingagentsmultimodalbrowsing:
+    bibtex:
+      title: "Coding Agents with Multimodal Browsing are Generalist Problem Solvers"
+      author: "Aditya Bharat Soni and Boxuan Li and Xingyao Wang and Valerie Chen and Graham Neubig"
+      year: "2025"
+      eprint: "2506.03011"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.CL"
+      url: "https://arxiv.org/abs/2506.03011"
+    category: "issue_resolution"
+    annotation:
+      method: "Proposes OpenHands-Versa, a generalist agent equipped with a minimal but versatile toolset, including code editing, execution, web search, multimodal web browsing, and file access, to achieve strong performance across diverse domains without task-specific optimization"
+      context_strategy: "Tackles problems in agent design with versatile toolset"
+      tags: ["Agent", "Multimodal", "GeneralistAgent"]
+      link: "https://arxiv.org/abs/2506.03011"
+
+  fehr2025coretimprovedretrievercode:
+    bibtex:
+      title: "CoRet: Improved Retriever for Code Editing"
+      author: "Fabio Fehr and Prabhu Teja Sivaprasad and Luca Franceschi and Giovanni Zappella"
+      year: "2025"
+      eprint: "2505.24715"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.LG"
+      url: "https://arxiv.org/abs/2505.24715"
+    category: "issue_resolution"
+    annotation:
+      method: "CoRet is a dense retriever for code-editing tasks that integrates code semantics, repository structure, and call graph dependencies to retrieve relevant code chunks given natural language queries, trained with a repository level retrieval loss"
+      context_strategy: "Enhances RAG by leveraging code semantics, repository structure, and call graph dependencies"
+      tags: ["RAG", "Training", "DenseRetriever", "CallGraph"]
+      link: "https://arxiv.org/abs/2505.24715"
+
+  zhang2025darwingodelmachineopenended:
+    bibtex:
+      title: "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents"
+      author: "Jenny Zhang and Shengran Hu and Cong Lu and Robert Lange and Jeff Clune"
+      year: "2025"
+      eprint: "2505.22954"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.AI"
+      url: "https://arxiv.org/abs/2505.22954"
+    category: "issue_resolution"
+    annotation:
+      method: "DGM is a self improving system that iteratively modifies its own code and empirically validates changes using coding benchmarks"
+      context_strategy: "Self improving agent"
+      tags: ["Agent", "SelfImproving", "OpenEndedness", "EvolutionarySearch"]
+      link: "https://arxiv.org/abs/2505.22954"
+
+  jiang2025puttingcontextsimplifyingagents:
+    bibtex:
+      title: "Putting It All into Context: Simplifying Agents with LCLMs"
+      author: "Mingjian Jiang and Yangjun Ruan and Luis Lastras and Pavan Kapanipathi and Tatsunori Hashimoto"
+      year: "2025"
+      eprint: "2505.08120"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.CL"
+      url: "https://arxiv.org/abs/2505.08120"
+    category: "issue_resolution"
+    annotation:
+      method: "This work explores a scaffold free approach to software engineering tasks like SWE bench by leveraging long context LLMs (LCLMs). Instead of relying on complex multi-agent scaffolding, tools, or retrieval systems, the method simply feeds the entire software environment into the model's context window and uses carefully designed prompts to guide reasoning"
+      context_strategy: "Simply feeds the entire software environment into the model's context window and uses carefully designed prompts to guide reasoning"
+      tags: ["LCLMs", "Prompting", "ScaffoldFree"]
+      link: "https://arxiv.org/abs/2505.08120"
+
+  cao2025skyrl:
+    bibtex:
+      title: "SkyRL-v0: Train Real-World Long-Horizon Agents via Reinforcement Learning"
+      author: "Shiyi Cao and Sumanth Hegde and Dacheng Li and Tyler Griggs and Shu Liu and Eric Tang and Jiayi Pan and Xingyao Wang and Akshay Malik and Graham Neubig and Kourosh Hakhamaneshi and Richard Liaw and Philipp Moritz and Matei Zaharia and Joseph E. Gonzalez and Ion Stoica"
+      year: "2025"
+    category: "issue_resolution"
+    annotation:
+      method: "RL training pipeline for multi-turn tool use LLMs, optimized for long-horizon, real-environment tasks like SWE Bench"
+      context_strategy: "Agentic: identifying relevant files, writing test cases to reproduce the issue, applying code edits, and validating the fix through testing"
+      tags: ["RL", "Training", "Agent", "Framework"]
+      link: "https://novasky-ai.notion.site/skyrl-v0"
+
+  ma2025thinkinglongerlargerenhancing:
+    bibtex:
+      title: "Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute"
+      author: "Yingwei Ma and Yongbin Li and Yihong Dong and Xue Jiang and Rongyu Cao and Jue Chen and Fei Huang and Binhua Li"
+      year: "2025"
+      eprint: "2503.23803"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2503.23803"
+    category: "issue_resolution"
+    annotation:
+      method: "This work proposes a unified Test-Time Compute (TTC) scaling framework to enhance the code reasoning ability of small models using increased inference-time computation instead of larger models. It includes: Internal TTC, a multi-stage trajectory synthesis approach that uses real world repositories for fault localization and patch generation, enhanced via rejection sampling based on accuracy and complexity and External TTC, a development-process-aware search guided by reward models and execution feedback, enabling targeted compute allocation at critical decision points"
+      context_strategy: "Repository understanding and fault localization stages enhanced with specialized Process Reward Model (PRM) to evaluate intermediate outputs at these critical junctures, effectively pruning less promising solution paths early while maintaining a manageable beam width"
+      tags: ["TestTimeCompute", "Training", "Agent", "ProcessRewardModel"]
+      link: "https://arxiv.org/abs/2503.23803"
+
+  yang2025enhancingrepositorylevelsoftwarerepair:
+    bibtex:
+      title: "Enhancing Repository-Level Software Repair via Repository-Aware Knowledge Graphs"
+      author: "Boyang Yang and Haoye Tian and Jiadong Ren and Shunfu Jin and Yang Liu and Feng Liu and Bach Le"
+      year: "2025"
+      eprint: "2503.21710"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2503.21710"
+    category: "issue_resolution"
+    annotation:
+      method: "KGCompass enhances repository-level software repair by introducing (1) a repository-aware knowledge graph (KG) that links issues, pull requests, and code entities to localize 20 most relevant functions, and (2) a path-guided repair mechanism that uses KG-mined entity paths to augment LLMs with relevant context for accurate patch generation and explanation"
+      context_strategy: "Uses structured repository metadata to bridge semantic gaps in LLM-based repair; enables multi-hop reasoning over a language-agnostic, incrementally updateable KG to support real-world codebases"
+      tags: ["KnowledgeGraph", "PathGuided", "MultiHopReasoning"]
+      link: "https://arxiv.org/abs/2503.21710"
+
+  jiang2025cosilsoftwareissuelocalization:
+    bibtex:
+      title: "CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching"
+      author: "Zhonghao Jiang and Xiaoxue Ren and Meng Yan and Wei Jiang and Yong Li and Zhongxin Liu"
+      year: "2025"
+      eprint: "2503.22424"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2503.22424"
+    category: "issue_resolution"
+    annotation:
+      method: "CoSIL is an LLM driven function level issue localization method that leverages dynamic, on the fly call graph construction by the LLM itself to iteratively search and prune relevant contexts without training or indexing"
+      context_strategy: "CoSIL employs module call graph enhanced reflection to identify suspicious code files that are not explicitly mentioned in the original issue description, thereby constraining the search space. Furthermore, CoSIL expands the module call graph into a function call graph and performs an iterative search over it. To control the search direction and manage the context, we design a pruner that prevents the LLM from exploring incorrect paths, thereby enabling effective context pruning"
+      tags: ["Prompting", "CallGraphConstruction"]
+      link: "https://arxiv.org/abs/2503.22424"
+
+  zhang2025sealignalignmenttrainingsoftware:
+    bibtex:
+      title: "SEAlign: Alignment Training for Software Engineering Agent"
+      author: "Kechi Zhang and Huangzhao Zhang and Ge Li and Jinliang You and Jia Li and Yunfei Zhao and Zhi Jin"
+      year: "2025"
+      eprint: "2503.18455"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2503.18455"
+    category: "issue_resolution"
+    annotation:
+      method: "SEAlign is an alignment training framework for code LLMs that identifies critical agentic decisions from successful and failed trajectories via trajectory tree analysis, and aligns models using fine-grained preference optimization over these decision points"
+      context_strategy: "Followed Openhands agentic loop"
+      tags: ["Alignment", "Training", "Agent", "DPO"]
+      link: "https://arxiv.org/abs/2503.18455"
+
+  aggarwal2025darsdynamicactionresampling:
+    bibtex:
+      title: "DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal"
+      author: "Vaibhav Aggarwal and Ojasv Kamal and Abhinav Japesh and Zhijing Jin and Bernhard Schölkopf"
+      year: "2025"
+      eprint: "2503.14269"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.CL"
+      url: "https://arxiv.org/abs/2503.14269"
+    category: "issue_resolution"
+    annotation:
+      method: "DARS (Dynamic Action Re-Sampling) is an inference time compute scaling strategy for LLM based coding agents that selectively branches alternative actions at key decision points, using execution feedback to recover from suboptimal trajectories"
+      context_strategy: "Followed SWE-Agent agentic loop, enhaced with various tools such as editing capabilities and execution tools"
+      tags: ["Training", "Agent", "InferenceTimeCompute", "DynamicActionResampling"]
+      link: "https://arxiv.org/abs/2503.14269"
+
+  chen2025locagentgraphguidedllmagents:
+    bibtex:
+      title: "LocAgent: Graph-Guided LLM Agents for Code Localization"
+      author: "Zhaoling Chen and Xiangru Tang and Gangda Deng and Fang Wu and Jialong Wu and Zhiwei Jiang and Viktor Prasanna and Arman Cohan and Xingyao Wang"
+      year: "2025"
+      eprint: "2503.09089"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2503.09089"
+    category: "issue_resolution"
+    annotation:
+      method: "LOCAGENT is a graph based code localization framework that parses a codebase into a directed heterogeneous graph (including files, classes, functions, and dependencies such as imports and invocations), enabling LLM agents to perform efficient multi hop reasoning to locate relevant code entities"
+      context_strategy: "After parsing the codebase into a directed heterogeneous graph, agentic search is performed using various tools such as SearchEntity, TraverseGraph, and RetrieveEntity"
+      tags: ["Graph", "Agent", "HeterogeneousGraph", "MultiHop"]
+      link: "https://arxiv.org/abs/2503.09089"
+
+  wei2025swerladvancingllmreasoning:
+    bibtex:
+      title: "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution"
+      author: "Yuxiang Wei and Olivier Duchenne and Jade Copet and Quentin Carbonneaux and Lingming Zhang and Daniel Fried and Gabriel Synnaeve and Rishabh Singh and Sida I. Wang"
+      year: "2025"
+      eprint: "2502.18449"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2502.18449"
+    category: "issue_resolution"
+    annotation:
+      method: "SWE-RL is the first RL framework scaled for real world software engineering reasoning tasks. It trains LLMs (e.g., Llama3-70B) using reinforcement learning based on software evolution data (e.g., code snapshots, changes, issues, PRs). A lightweight rule based reward, like the similarity between LLM generated patches and ground truth, guides training. This enables the model to learn from developer reasoning trajectories without requiring expensive simulation environments"
+      context_strategy: "Builds Agentless Mini on top of Agentless, Agentless Mini focuses solely on file-level localization, delegating detailed reasoning to the repair step by providing the entire file contents in the input"
+      tags: ["RL", "SoftwareEvolution"]
+      link: "https://arxiv.org/abs/2502.18449"
+
+  xie2025swefixertrainingopensourcellms:
+    bibtex:
+      title: "SWE-Fixer: Training Open-Source LLMs for Effective and Efficient GitHub Issue Resolution"
+      author: "Chengxing Xie and Bowen Li and Chang Gao and He Du and Wai Lam and Difan Zou and Kai Chen"
+      year: "2025"
+      eprint: "2501.05040"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.CL"
+      url: "https://arxiv.org/abs/2501.05040"
+    category: "issue_resolution"
+    annotation:
+      method: "SWE-Fixer introduces a two-stage open-source pipeline for automated GitHub issue resolution. First, a file retrieval module combines BM25 with a lightweight model to perform coarse-to-fine retrieval of relevant code files. Then, an editing module generates patches for the retrieved files using another model. The system is designed for efficiency, requiring only two model calls per instance. To support training, the authors collect a dataset of 110K GitHub issues paired with corresponding patches and train both modules separately. Additionally, a filtering strategy called PASS TO PASS (P2P) is introduced to improve patch quality"
+      context_strategy: "RAG and Prompting"
+      tags: ["Training", "RAG", "TwoStage", "BM25", "PASS_TO_PASS"]
+      link: "https://arxiv.org/abs/2501.05040"
+
+  ehrlich2025codemonkeysscalingtesttimecompute:
+    bibtex:
+      title: "CodeMonkeys: Scaling Test-Time Compute for Software Engineering"
+      author: "Ryan Ehrlich and Bradley Brown and Jordan Juravsky and Ronald Clark and Christopher Ré and Azalia Mirhoseini"
+      year: "2025"
+      eprint: "2501.14723"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.LG"
+      url: "https://arxiv.org/abs/2501.14723"
+    category: "issue_resolution"
+    annotation:
+      method: "CodeMonkeys improves LLM-based program repair by scaling test-time compute both serially and in parallel. Serial scaling is achieved by increasing the number of edit-test iterations per trajectory, while parallel scaling is achieved by sampling multiple multi-turn trajectories for each issue. Each trajectory involves the model generating a code edit and an accompanying test script, executing them iteratively. Candidate edits are then evaluated using a combination of test-based voting and a dedicated multi-turn selection trajectory. This approach also supports ensemble selection across edits generated by different systems"
+      context_strategy: "Letting a cheaper LLM scan every file to locate relevant files and rank them"
+      tags: ["TestTimeCompute", "SerialScaling", "ParallelScaling", "EnsembleSelection"]
+      link: "https://arxiv.org/abs/2501.14723"
+
+  pan2025trainingsoftwareengineeringagents:
+    bibtex:
+      title: "Training Software Engineering Agents and Verifiers with SWE-Gym"
+      author: "Jiayi Pan and Xingyao Wang and Graham Neubig and Navdeep Jaitly and Heng Ji and Alane Suhr and Yizhe Zhang"
+      year: "2025"
+      eprint: "2412.21139"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2412.21139"
+    category: "issue_resolution"
+    annotation:
+      method: "his paper introduces SWE-Gym, the first environment for training real world software engineering (SWE) agents. They further experiment with inference time scaling with verifiers trained on agent trajectories sampled from SWE-Gym"
+      context_strategy: "OpenHands agentic scaffold"
+      tags: ["TestTimeCompute", "Agent", "Training", "Environment", "Verifier"]
+      link: "https://arxiv.org/abs/2412.21139"
+
+  zhang2024codevissueresolvingvisual:
+    bibtex:
+      title: "CodeV: Issue Resolving with Visual Data"
+      author: "Linhao Zhang and Daoguang Zan and Quanshun Yang and Zhirong Huang and Dong Chen and Bo Shen and Tianyu Liu and Yongshun Gong and Pengjie Huang and Xudong Lu and Guangtai Liang and Lizhen Cui and Qianxiang Wang"
+      year: "2024"
+      eprint: "2412.17315"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2412.17315"
+    category: "issue_resolution"
+    annotation:
+      method: "Improves GitHub issue resolution by incorporating visual data alongside textual information. CODEV follows two main steps: processing the visual and textual data, then generating code patches to fix issues"
+      context_strategy: "To process the issue's visual data, we use two parts: fine-grained description and structured summarization. For fine grained description, a Vision Language Model (VLM) describes each visual item in detail and then explains how it relates to the issue. For structured summarization, the VLM creates a clear summary that breaks the issue into simple, easy to understand sections. Then use agentless scaffold to do patch generation"
+      tags: ["Hierarchical", "Multimodal", "VisualData", "VLM", "FineGrainedDescription", "StructuredSummarization"]
+      link: "https://arxiv.org/abs/2412.17315"
+
+  lin2024llmscontinuouslearnersimproving:
+    bibtex:
+      title: "LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues"
+      author: "Yalan Lin and Yingwei Ma and Rongyu Cao and Binhua Li and Fei Huang and Xiaodong Gu and Yongbin Li"
+      year: "2024"
+      eprint: "2411.13941"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2411.13941"
+    category: "issue_resolution"
+    annotation:
+      method: "a multi agent continuous learning framework for reproducing buggy code. EvoCoder uses a reflection mechanism that lets the model learn from past fixes and improve its strategies for new problems. To avoid overwhelming the model with too much past data, it employs a hierarchical experience pool that updates both general and repository specific knowledge"
+      context_strategy: "EvoCoder uses a hierarchical reflection system where one LLM (the actor) reproduces buggy code and saves its actions in memory. Another LLM (the reflector) learns from these actions to extract useful experience. This experience is stored in two layers: a top layer for general knowledge and a lower layer for repository specific knowledge"
+      tags: ["BugReproduce", "Reflection", "HierarchicalExperiencePool", "ContinuousLearning"]
+      link: "https://arxiv.org/abs/2411.13941"
+
+  liu2024marscodeagentainativeautomated:
+    bibtex:
+      title: "MarsCode Agent: AI-native Automated Bug Fixing"
+      author: "Yizhou Liu and Pengfei Gao and Xinchen Wang and Jie Liu and Yexuan Shi and Zhao Zhang and Chao Peng"
+      year: "2024"
+      eprint: "2409.00899"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2409.00899"
+    category: "issue_resolution"
+    annotation:
+      method: "A new framework that uses LLMs combined with advanced code analysis to find and fix bugs automatically. MarsCode Agent works through a clear process: planning, reproducing the bug, locating the fault, generating possible fixes, and validating them to ensure quality"
+      context_strategy: "Multi agent collaboration + Combines code knowledge graphs and language server protocols to provide agents with comprehensive capabilities for code entity retrieval, relationship retrieval, and definition-and-reference navigation, enabling agents to browse and analyze code similarly to human developers"
+      tags: ["Agent", "CodeAnalysis", "LanguageServerProtocols"]
+      link: "https://arxiv.org/abs/2409.00899"
+
+  ma2024lingmaswegptopendevelopmentprocesscentric:
+    bibtex:
+      title: "Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement"
+      author: "Yingwei Ma and Rongyu Cao and Yongchang Cao and Yue Zhang and Jue Chen and Yibo Liu and Yuchen Liu and Binhua Li and Fei Huang and Yongbin Li"
+      year: "2024"
+      eprint: "2411.00622"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2411.00622"
+    category: "issue_resolution"
+    annotation:
+      method: "By learning from and simulating real-world code submission activities, Lingma SWE GPT systematically incorporates the dynamic interactions and iterative problem-solving inherent in software development process—such as repository understanding, fault localization, and patch generation—thereby achieving a more comprehensive understanding of software improvement processes"
+      context_strategy: "Repository understaning using Repo Structure tool, Navigate Repo tool, and Code Compressor tool. Then, using FLer, a fault localization module that mimics how developers identify buggy code by combining tool usage with iterative reasoning. It retrieves and analyzes relevant code snippets based on the issue description and repository context. Through repeated search, evaluation, and reflection, FLer pinpoints fault locations to prepare for patch generation"
+      tags: ["Training", "RepositoryUnderstanding", "Hierarchical", "FaultLocalization", "PatchGeneration"]
+      link: "https://arxiv.org/abs/2411.00622"
+
+  antoniades2025swesearchenhancingsoftwareagents:
+    bibtex:
+      title: "SWE-Search: Enhancing Software Agents with Monte Carlo Tree Search and Iterative Refinement"
+      author: "Antonis Antoniades and Albert Örwall and Kexun Zhang and Yuxi Xie and Anirudh Goyal and William Wang"
+      year: "2025"
+      eprint: "2410.20285"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.AI"
+      url: "https://arxiv.org/abs/2410.20285"
+    category: "issue_resolution"
+    annotation:
+      method: "a multi-agent framework that integrates Monte Carlo Tree Search (MCTS) with a self-improvement mechanism to enhance software agents' performance on repository-level software tasks. SWE-Search extends traditional MCTS by incorporating a hybrid value function that leverages LLMs for both numerical value estimation and qualitative evaluation. The framework includes a SWE-Agent for adaptive exploration, a Value Agent for iterative feedback, and a Discriminator Agent that facilitates multi-agent debate for collaborative decision-making"
+      context_strategy: "Multi agent enhaced with MCTS"
+      tags: ["Agent", "MCTS", "HybridValueFunction", "MultiAgentDebate"]
+      link: "https://arxiv.org/abs/2410.20285"
+
+  zhang2024autocoderover:
+    bibtex:
+      title: "Autocoderover: Autonomous program improvement"
+      author: "Zhang, Yuntong and Ruan, Haifeng and Fan, Zhiyu and Roychoudhury, Abhik"
+      booktitle: "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis"
+      pages: "1592--1604"
+      year: "2024"
+    category: "issue_resolution"
+    annotation:
+      method: "AutoCodeRover works on structured program representations like abstract syntax trees. It uses class/method-level search and fault localization from test results to give the LLM better context for fixing issues"
+      context_strategy: "Static Code Analysis, retrieve context through iterative search and f spectrum-based fault localization"
+      tags: ["StaticCodeAnalysis", "IterativeSearch", "SBFL"]
+      link: "https://dl.acm.org/doi/pdf/10.1145/3650212.3680384"
+
+  ruan2024specrovercodeintentextraction:
+    bibtex:
+      title: "SpecRover: Code Intent Extraction via LLMs"
+      author: "Haifeng Ruan and Yuntong Zhang and Abhik Roychoudhury"
+      year: "2024"
+      eprint: "2408.02232"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2408.02232"
+    category: "issue_resolution"
+    annotation:
+      method: "Examine efficient and low-cost workflows for iterative specification inference within an LLM agent. Given a GitHub issue to be resolved in a software project, our goal is to conduct iterative code search accompanied by specification inference - thereby inferring intent from both the project structure and behavior. The intent thus captured is examined by a reviewer agent with the goal of vetting the patches as well as providing a measure of confidence in the vetted patches"
+      context_strategy: "The context retrieval agent explores the program codebase to identify relevant code and pinpoint buggy locations that need patching. While doing so, it generates a natural language summary describing the intended behavior of each function related to the issue. These buggy locations and their function summaries are then passed to a patching agent, which attempts to write patches to fix the problems"
+      tags: ["Agent", "IterativeSearch", "CodeIntentExtraction"]
+      link: "https://arxiv.org/abs/2408.02232"
+
+  xia2024agentlessdemystifyingllmbasedsoftware:
+    bibtex:
+      title: "Agentless: Demystifying LLM-based Software Engineering Agents"
+      author: "Chunqiu Steven Xia and Yinlin Deng and Soren Dunn and Lingming Zhang"
+      year: "2024"
+      eprint: "2407.01489"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2407.01489"
+    category: "issue_resolution"
+    annotation:
+      method: "Compared to the verbose and complex setup of agent-based approaches, AGENTLESS employs a simplistic three-phase process of localization, repair, and patch validation, without letting the LLM decide future actions or operate with complex tools"
+      context_strategy: "a hierarchical process to first localize the fault to specific files, then to relevant classes or functions, and finally to fine-grained edit locations, making uses of both LLM-based localization as well classic information-retrieval-based localization idea"
+      tags: ["Hierarchical", "RAG", "Agentless"]
+      link: "https://arxiv.org/abs/2407.01489"
+
+  ouyang2025repographenhancingaisoftware:
+    bibtex:
+      title: "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph"
+      author: "Siru Ouyang and Wenhao Yu and Kaixin Ma and Zilin Xiao and Zhihan Zhang and Mengzhao Jia and Jiawei Han and Hongming Zhang and Dong Yu"
+      year: "2025"
+      eprint: "2410.14684"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2410.14684"
+    category: "issue_resolution"
+    annotation:
+      method: "REPOGRAPH is a plug-in module that helps LLM-based AI programmers understand the structure of an entire code repository. It builds a graph at the line level, where each node is a line of code and edges show dependencies between definitions and references. By parsing code lines, REPOGRAPH creates a detailed map of the repository. It then uses sub-graph retrieval to extract ego-graphs—small graphs centered on specific keywords. These ego-graphs provide rich context and can be easily used by procedural or agent-based frameworks to help LLMs solve real-world software engineering tasks"
+      context_strategy: "Code line parsing + Project-dependent relation filtering + Graph organization"
+      tags: ["Graph", "RepoUnderstanding", "LineLevelGraph", "EgoGraphs", "SubGraphRetrieval"]
+      link: "https://arxiv.org/abs/2410.14684"
+
+  ma2025alibabalingmaagentimprovingautomated:
+    bibtex:
+      title: "Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration"
+      author: "Yingwei Ma and Qingping Yang and Rongyu Cao and Binhua Li and Fei Huang and Yongbin Li"
+      year: "2025"
+      eprint: "2406.01422"
+      archivePrefix: "arXiv"
+      primaryClass: "cs.SE"
+      url: "https://arxiv.org/abs/2406.01422"
+    category: "issue_resolution"
+    annotation:
+      method: "It uses a top-down approach to condense important repository information into a knowledge graph, simplifying complexity, and applies Monte Carlo tree search to explore and analyze the whole repository. The agent summarizes, plans, and dynamically gathers information at the repository level to generate patches for real-world GitHub issues"
+      context_strategy: "It uses a top-down approach to condense important repository information into a knowledge graph, simplifying complexity, and applies Monte Carlo tree search to explore and analyze the whole repository. The agent summarizes, plans, and dynamically gathers information at the repository level to generate patches for real-world GitHub issues"
+      tags: ["KnowledgeGraph", "RepoUnderstanding", "MCTS", "TopDown", "MonteCarloTreeSearch"]
+      link: "https://arxiv.org/abs/2406.01422"
+
+  yang2024swe:
+    bibtex:
+      title: "Swe-agent: Agent-computer interfaces enable automated software engineering"
+      author: "Yang, John and Jimenez, Carlos E and Wettig, Alexander and Lieret, Kilian and Yao, Shunyu and Narasimhan, Karthik and Press, Ofir"
+      journal: "Advances in Neural Information Processing Systems"
+      volume: "37"
+      pages: "50528--50652"
+      year: "2024"
+    category: "issue_resolution"
+    annotation:
+      method: "a system that facilitates LM agents to autonomously use computers to solve software engineering tasks. SWE-agent's custom agent-computer interface (ACI) significantly enhances an agent's ability to create and edit code files, navigate entire repositories, and execute tests and other programs"
+      context_strategy: "Agent with tools"
+      tags: ["Agent"]
+      link: "https://arxiv.org/abs/2405.15793"
+
+  # Note: Only one paper found in code_translation.bib, so adding a placeholder
+  # You can add another paper from code_translation.bib when available
+  # placeholder_translation:
+  #   bibtex:
+  #     title: "Placeholder for second code translation paper"
+  #     author: "Author Name"
+  #     year: "2024"
+  #   category: "code_translation"
+  #   annotation:
+  #     method: "Placeholder annotation"
+  #     context_strategy: "Placeholder"
+  #     tags: ["Placeholder"]
+  #     link: "https://placeholder.com"
+
+# Configuration for easy category reassignment
+# To move a paper from one category to another, simply change the category field
+# Example: change "category: code_qa" to "category: code_generation"
+
+# To add a new category, add it to the categories section above
+# Example:
+# new_category:
+#   description: "Description of new category"
+#   source_file: "new_category.bib"
