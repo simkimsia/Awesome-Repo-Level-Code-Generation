@@ -97,7 +97,7 @@
 
 ## 🤖 Repo-Level Code Generation
 
-- Enhancing Project-Specific Code Completion by Inferring Internal API Information [2025-TSE-EarlyAccess] [[📄 paper](https://ieeexplore.ieee.org/abstract/document/11096713)] [[🔗 repo](https://github.com/ZJU-CTAG/InferCom)]
+- Enhancing Project-Specific Code Completion by Inferring Internal API Information [2025-TSE-EarlyAccess] [[📄 paper](https://ieeexplore.ieee.org/abstract/document/11096713)] [[🔗 repo](https://github.com/ZJU-CTAG/InferCom)] ✅✅
 
 - CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation [2025-04-arXiv] [[📄 paper](https://arxiv.org/abs/2504.10046)] ✅✅
 
@@ -121,23 +121,23 @@
 
 - RAMBO: Enhancing RAG-based Repository-Level Method Body Completion [2024-09-arXiv] [[📄 paper](https://arxiv.org/abs/2409.15204)] [[🔗 repo](https://github.com/ise-uet-vnu/rambo)] ✅✅
 
-- RLCoder: Reinforcement Learning for Repository-Level Code Completion [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2407.19487)] [[🔗 repo](https://github.com/DeepSoftwareAnalytics/RLCoder)]
+- RLCoder: Reinforcement Learning for Repository-Level Code Completion [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2407.19487)] [[🔗 repo](https://github.com/DeepSoftwareAnalytics/RLCoder)] ✅✅
 
-- STALL+: Boosting LLM-based Repository-level Code Completion with Static Analysis [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.10018)]
+- STALL+: Boosting LLM-based Repository-level Code Completion with Static Analysis [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.10018)] ✅✅
 
-- GraphCoder: Enhancing Repository-Level Code Completion via Code Context Graph-based Retrieval and Language Model [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.07003)]
+- GraphCoder: Enhancing Repository-Level Code Completion via Code Context Graph-based Retrieval and Language Model [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.07003)] ✅✅
 
-- Enhancing Repository-Level Code Generation with Integrated Contextual Information [2024-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2406.03283)]
+- Enhancing Repository-Level Code Generation with Integrated Contextual Information [2024-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2406.03283)] ✅✅
 
-- R2C2-Coder: Enhancing and Benchmarking Real-world Repository-level Code Completion Abilities of Code Large Language Models [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.01359)]
+- R2C2-Coder: Enhancing and Benchmarking Real-world Repository-level Code Completion Abilities of Code Large Language Models [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.01359)] ✅✅
 
-- Natural Language to Class-level Code Generation by Iterative Tool-augmented Reasoning over Repository [2024-05-arXiv] [[📄 paper](https://arxiv.org/abs/2405.01573)] [[🔗 repo](https://github.com/microsoft/repoclassbench)]
+- Natural Language to Class-level Code Generation by Iterative Tool-augmented Reasoning over Repository [2024-05-arXiv] [[📄 paper](https://arxiv.org/abs/2405.01573)] [[🔗 repo](https://github.com/microsoft/repoclassbench)] ✅✅
 
-- Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.16792)] [[🔗 repo](https://github.com/CGCL-codes/naturalcc/tree/main/examples/cocogen)]
+- Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.16792)] [[🔗 repo](https://github.com/CGCL-codes/naturalcc/tree/main/examples/cocogen)] ✅✅
 
-- Repoformer: Selective Retrieval for Repository-Level Code Completion [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.10059)] [[🔗 repo](https://repoformer.github.io/)]
+- Repoformer: Selective Retrieval for Repository-Level Code Completion [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.10059)] [[🔗 repo](https://repoformer.github.io/)] ✅✅
 
-- RepoHyper: Search-Expand-Refine on Semantic Graphs for Repository-Level Code Completion [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.06095)] [[🔗 repo](https://github.com/FSoft-AI4Code/RepoHyper)]
+- RepoHyper: Search-Expand-Refine on Semantic Graphs for Repository-Level Code Completion [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.06095)] [[🔗 repo](https://github.com/FSoft-AI4Code/RepoHyper)] ✅✅
 
 - RepoMinCoder: Improving Repository-Level Code Generation Based on Information Loss Screening [2024-07-Internetware] [[📄 paper](https://dl.acm.org/doi/10.1145/3671016.3674819)]
 
