@@ -139,29 +139,29 @@
 
 - RepoHyper: Search-Expand-Refine on Semantic Graphs for Repository-Level Code Completion [2024-03-arXiv] [[📄 paper](https://arxiv.org/abs/2403.06095)] [[🔗 repo](https://github.com/FSoft-AI4Code/RepoHyper)] ✅✅
 
-- RepoMinCoder: Improving Repository-Level Code Generation Based on Information Loss Screening [2024-07-Internetware] [[📄 paper](https://dl.acm.org/doi/10.1145/3671016.3674819)]
+- RepoMinCoder: Improving Repository-Level Code Generation Based on Information Loss Screening [2024-07-Internetware] [[📄 paper](https://dl.acm.org/doi/10.1145/3671016.3674819)] ✅✅
 
-- CodePlan: Repository-Level Coding using LLMs and Planning [2024-07-FSE] [[📄 paper](https://dl.acm.org/doi/abs/10.1145/3643757)] [[🔗 repo](https://github.com/microsoft/codeplan)]
+- CodePlan: Repository-Level Coding using LLMs and Planning [2024-07-FSE] [[📄 paper](https://dl.acm.org/doi/abs/10.1145/3643757)] [[🔗 repo](https://github.com/microsoft/codeplan)] ✅✅
 
-- DraCo: Dataflow-Guided Retrieval Augmentation for Repository-Level Code Completion [2024-05-ACL] [[📄 paper](https://aclanthology.org/2024.acl-long.431/)] [[🔗 repo](https://github.com/nju-websoft/DraCo)]
+- DraCo: Dataflow-Guided Retrieval Augmentation for Repository-Level Code Completion [2024-05-ACL] [[📄 paper](https://aclanthology.org/2024.acl-long.431/)] [[🔗 repo](https://github.com/nju-websoft/DraCo)] ✅✅
 
 - RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation [2023-10-EMNLP] [[📄 paper](https://aclanthology.org/2023.emnlp-main.151/)] [[🔗 repo](https://github.com/microsoft/CodeT/tree/main/RepoCoder)] ✅✅
 
-- Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context [2023-09-NeurIPS] [[📄 paper](https://neurips.cc/virtual/2023/poster/70362)] [[🔗 repo](https://aka.ms/monitors4codegen)]
+- Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context [2023-09-NeurIPS] [[📄 paper](https://neurips.cc/virtual/2023/poster/70362)] [[🔗 repo](https://aka.ms/monitors4codegen)] ✅✅
 
-- RepoFusion: Training Code Models to Understand Your Repository [2023-06-arXiv] [[📄 paper](https://arxiv.org/abs/2306.10998)] [[🔗 repo](https://github.com/ServiceNow/RepoFusion)]
+- RepoFusion: Training Code Models to Understand Your Repository [2023-06-arXiv] [[📄 paper](https://arxiv.org/abs/2306.10998)] [[🔗 repo](https://github.com/ServiceNow/RepoFusion)] ✅✅
 
-- Repository-Level Prompt Generation for Large Language Models of Code [2023-06-ICML] [[📄 paper](https://proceedings.mlr.press/v202/shrivastava23a.html)] [[🔗 repo](https://github.com/shrivastavadisha/repo_level_prompt_generation)]
+- Repository-Level Prompt Generation for Large Language Models of Code [2023-06-ICML] [[📄 paper](https://proceedings.mlr.press/v202/shrivastava23a.html)] [[🔗 repo](https://github.com/shrivastavadisha/repo_level_prompt_generation)] ✅✅
 
-- Fully Autonomous Programming with Large Language Models [2023-06-GECCO] [[📄 paper](https://dl.acm.org/doi/pdf/10.1145/3583131.3590481)] [[🔗 repo](https://github.com/KoutchemeCharles/aied2023)]
+- Fully Autonomous Programming with Large Language Models [2023-06-GECCO] [[📄 paper](https://dl.acm.org/doi/pdf/10.1145/3583131.3590481)] [[🔗 repo](https://github.com/KoutchemeCharles/aied2023)] ✅✅
 
 ## 🔄 Repo-Level Code Translation
 
-- Lost in Translation: A Study of Bugs Introduced by Large Language Models while Translating Code [2024-04-ICSE] [[📄 paper](https://doi.org/10.1145/3597503.3639226)] [[🔗 repo](https://github.com/Intelligent-CAT-Lab/PLTranslationEmpirical)]
+- Lost in Translation: A Study of Bugs Introduced by Large Language Models while Translating Code [2024-04-ICSE] [[📄 paper](https://doi.org/10.1145/3597503.3639226)] [[🔗 repo](https://github.com/Intelligent-CAT-Lab/PLTranslationEmpirical)] ✅✅
 
-- C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques [2025-01-arXiv] [[📄 paper](https://www.arxiv.org/pdf/2501.14257)] [[🔗 repo](https://github.com/vikramnitin9/c2saferrust)]
+- C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques [2025-01-arXiv] [[📄 paper](https://www.arxiv.org/pdf/2501.14257)] [[🔗 repo](https://github.com/vikramnitin9/c2saferrust)] ✅✅
 
-- Scalable, Validated Code Translation of Entire Projects using Large Language Models [2025-06-PLDI] [[📄 paper](https://doi.org/10.5281/zenodo.15242640)]
+- Scalable, Validated Code Translation of Entire Projects using Large Language Models [2025-06-PLDI] [[📄 paper](https://dl.acm.org/doi/abs/10.1145/3729315)] ✅✅
 
 - Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis [2024-12-arxiv] [[📄 paper](https://arxiv.org/pdf/2412.14234)] [[🕸️ website](https://syzygy-project.github.io/)]
 
