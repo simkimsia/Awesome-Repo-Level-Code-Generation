@@ -27,19 +27,19 @@
 
 - The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason [2025-06-arXiv] [[📄 paper](https://arxiv.org/abs/2506.12286)]
 
-- Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards [2025-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2506.11425)]
+- Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards [2025-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2506.11425)] ✅✅
 
-- EXPEREPAIR: Dual-Memory Enhanced LLM-based Repository-Level Program Repair [2025-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2506.10484)]
+- EXPEREPAIR: Dual-Memory Enhanced LLM-based Repository-Level Program Repair [2025-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2506.10484)] ✅✅
 
-- OpenHands-Versa: Coding Agents with Multimodal Browsing are Generalist Problem Solvers [2025-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2506.03011)] [[🔗 repo](https://github.com/adityasoni9998/OpenHands-Versa)]
+- Coding Agents with Multimodal Browsing are Generalist Problem Solvers [2025-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2506.03011)] [[🔗 repo](https://github.com/adityasoni9998/OpenHands-Versa)] ✅✅
 
-- CoRet: Improved Retriever for Code Editing [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.24715)]
+- CoRet: Improved Retriever for Code Editing [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.24715)] ✅✅
 
-- Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.22954)] [[🔗 repo](https://github.com/jennyzzt/dgm)]
+- Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.22954)] [[🔗 repo](https://github.com/jennyzzt/dgm)] ✅✅
 
-- SWE-Dev: Evaluating and Training Autonomous Feature-Driven Software Development [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.16975)] [[🔗 repo](https://github.com/justLittleWhite/SWE-Dev)]
+- SWE-Dev: Evaluating and Training Autonomous Feature-Driven Software Development [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.16975)] [[🔗 repo](https://github.com/justLittleWhite/SWE-Dev)] ✅✅
 
-- Putting It All into Context: Simplifying Agents with LCLMs [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.08120)]
+- Putting It All into Context: Simplifying Agents with LCLMs [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.08120)] ✅✅
 
 - SkyRL-v0: Train Real-World Long-Horizon Agents via Reinforcement Learning [2025-05-arXiv] [[📄 blog](https://novasky-ai.notion.site/skyrl-v0)] [[🔗 repo](https://github.com/novasky-ai/skyrl-v0)]
 
@@ -163,23 +163,23 @@
 
 - Scalable, Validated Code Translation of Entire Projects using Large Language Models [2025-06-PLDI] [[📄 paper](https://dl.acm.org/doi/abs/10.1145/3729315)] ✅✅
 
-- Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis [2024-12-arxiv] [[📄 paper](https://arxiv.org/pdf/2412.14234)] [[🕸️ website](https://syzygy-project.github.io/)]
+- Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis [2024-12-arxiv] [[📄 paper](https://arxiv.org/pdf/2412.14234)] [[🕸️ website](https://syzygy-project.github.io/)] ✅✅
 
 ## 🔍 Repo-Level Code QA
 
 - Decompositional Reasoning for Graph Retrieval with Large Language Models [2025-06-arXiv] [[📄 paper](https://arxiv.org/abs/2506.13380)] ✅✅
 
-- LongCodeBench: Evaluating Coding LLMs at 1M Context Windows [2025-05-arXiv] [[📄 paper](https://arxiv.org/pdf/2505.07897)]
+- LongCodeBench: Evaluating Coding LLMs at 1M Context Windows [2025-05-arXiv] [[📄 paper](https://arxiv.org/pdf/2505.07897)] ✅✅
 
-- LocAgent: Graph-Guided LLM Agents for Code Localization [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.09089)] [[🔗 repo](https://github.com/gersteinlab/LocAgent)]
+- LocAgent: Graph-Guided LLM Agents for Code Localization [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.09089)] [[🔗 repo](https://github.com/gersteinlab/LocAgent)] ✅✅
 
-- CoReQA: Uncovering Potentials of Language Models in Code Repository Question Answering [2025-01-arXiv] [[📄 paper](https://arxiv.org/pdf/2501.03447)]
+- CoReQA: Uncovering Potentials of Language Models in Code Repository Question Answering [2025-01-arXiv] [[📄 paper](https://arxiv.org/pdf/2501.03447)] ✅✅
 
-- RepoChat Arena [2025-Blog] [[🔗 repo](https://blog.lmarena.ai/blog/2025/repochat-arena/)]
+- RepoChat Arena [2025-Blog] [[🔗 repo](https://blog.lmarena.ai/blog/2025/repochat-arena/)] ✅✅
 
-- RepoChat: An LLM-Powered Chatbot for GitHub Repository Question-Answering [MSR-2025] [[🔗 repo](https://2025.msrconf.org/details/msr-2025-data-and-tool-showcase-track/35/RepoChat-An-LLM-Powered-Chatbot-for-GitHub-Repository-Question-Answering)]
+- RepoChat: An LLM-Powered Chatbot for GitHub Repository Question-Answering [MSR-2025] [[🔗 repo](https://2025.msrconf.org/details/msr-2025-data-and-tool-showcase-track/35/RepoChat-An-LLM-Powered-Chatbot-for-GitHub-Repository-Question-Answering)] ✅✅
 
-- CodeQueries: A Dataset of Semantic Queries over Code [2022-09-arXiv] [[📄 paper](https://arxiv.org/abs/2209.08372)]
+- CodeQueries: A Dataset of Semantic Queries over Code [2022-09-arXiv] [[📄 paper](https://arxiv.org/abs/2209.08372)] ✅✅
 
 
 ## 📊 Datasets and Benchmarks
@@ -277,6 +277,8 @@
 - **CrossCodeEval**: A Diverse and Multilingual Benchmark for Cross-File Code Completion [2023-NeurIPS] [[📄 paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/920f2dced7d32ab2ba2f1970bc306af6-Paper-Datasets_and_Benchmarks.pdf)] [[🔗 site](https://crosscodeeval.github.io/)]
 
 - **Skeleton-Guided-Translation**: A Benchmarking Framework for Code Repository Translation with Fine-Grained Quality Evaluation [2025-01-arxiv] [[📄 paper](https://arxiv.org/abs/2501.16050)] [[🔗 repo](https://github.com/microsoft/TransRepo)]
+
+- **SWE-Dev**: SWE-Dev: Evaluating and Training Autonomous Feature-Driven Software Development [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.16975)] [[🔗 repo](https://github.com/justLittleWhite/SWE-Dev)] ✅✅
 
 ## Star History
 
