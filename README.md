@@ -21,11 +21,11 @@
 
 ## 💥 Repo-Level Issue Resolution
 
-- SWE-Exp: Experience-Driven Software Issue Resolution [2025-07-arXiv] [[📄 paper](http://arxiv.org/abs/2507.23361)] [[🔗 repo](https://github.com/YerbaPage/SWE-Exp)]
+- SWE-Exp: Experience-Driven Software Issue Resolution [2025-07-arXiv] [[📄 paper](http://arxiv.org/abs/2507.23361)] [[🔗 repo](https://github.com/YerbaPage/SWE-Exp)]  ✅✅
 
-- SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution [2025-07-arXiv] [[📄 paper](http://arxiv.org/abs/2507.23348)] [[🔗 repo](https://github.com/YerbaPage/SWE-Debate)]
+- SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution [2025-07-arXiv] [[📄 paper](http://arxiv.org/abs/2507.23348)] [[🔗 repo](https://github.com/YerbaPage/SWE-Debate)] ✅✅
 
-- The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason [2025-06-arXiv] [[📄 paper](https://arxiv.org/abs/2506.12286)]
+- The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason [2025-06-arXiv] [[📄 paper](https://arxiv.org/abs/2506.12286)] ✅✅
 
 - Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards [2025-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2506.11425)] ✅✅
 
@@ -41,15 +41,15 @@
 
 - Putting It All into Context: Simplifying Agents with LCLMs [2025-05-arXiv] [[📄 paper](https://arxiv.org/abs/2505.08120)] ✅✅
 
-- SkyRL-v0: Train Real-World Long-Horizon Agents via Reinforcement Learning [2025-05-arXiv] [[📄 blog](https://novasky-ai.notion.site/skyrl-v0)] [[🔗 repo](https://github.com/novasky-ai/skyrl-v0)]
+- SkyRL-v0: Train Real-World Long-Horizon Agents via Reinforcement Learning [2025-05-arXiv] [[📄 blog](https://novasky-ai.notion.site/skyrl-v0)] [[🔗 repo](https://github.com/novasky-ai/skyrl-v0)] ✅✅
 
-- AEGIS: An Agent-based Framework for General Bug Reproduction from Issue Descriptions [2025-FSE] [[📄 paper](https://arxiv.org/pdf/2411.18015)]
+  - AEGIS: An Agent-based Framework for General Bug Reproduction from Issue Descriptions [2025-FSE] [[📄 paper](https://arxiv.org/pdf/2411.18015)] ✅✅
 
-- Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.23803)] [[🔗 repo](https://github.com/yingweima2022/SWE-Reasoner)]
+- Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.23803)] [[🔗 repo](https://github.com/yingweima2022/SWE-Reasoner)] ✅✅
 
-- Enhancing Repository-Level Software Repair via Repository-Aware Knowledge Graphs [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.21710)]
+- Enhancing Repository-Level Software Repair via Repository-Aware Knowledge Graphs [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.21710)] ✅✅
 
-- CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching [2025-03-arXiv] [[📄 paper](https://arxiv.org/pdf/2503.22424)]
+- CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching [2025-03-arXiv] [[📄 paper](https://arxiv.org/pdf/2503.22424)] ✅✅
 
 - SEAlign: Alignment Training for Software Engineering Agent [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.18455)]
 
