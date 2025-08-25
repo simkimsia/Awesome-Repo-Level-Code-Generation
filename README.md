@@ -51,25 +51,25 @@
 
 - CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching [2025-03-arXiv] [[📄 paper](https://arxiv.org/pdf/2503.22424)] ✅✅
 
-- SEAlign: Alignment Training for Software Engineering Agent [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.18455)]
+- SEAlign: Alignment Training for Software Engineering Agent [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.18455)] ✅✅
 
-- DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.14269)] [[🔗 repo](https://github.com/darsagent/DARS-Agent)]
+- DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal [2025-03-arXiv] [[📄 paper](https://arxiv.org/abs/2503.14269)] [[🔗 repo](https://github.com/darsagent/DARS-Agent)] ✅✅
 
-- LocAgent: Graph-Guided LLM Agents for Code Localization [2025-03-arXiv] [[📄 paper](https://arxiv.org/pdf/2503.09089)] [[🔗 repo](https://github.com/gersteinlab/LocAgent)]
+- LocAgent: Graph-Guided LLM Agents for Code Localization [2025-03-arXiv] [[📄 paper](https://arxiv.org/pdf/2503.09089)] [[🔗 repo](https://github.com/gersteinlab/LocAgent)] ✅✅
 
-- SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning [2025-02-arXiv] [[📄 paper](https://arxiv.org/abs/2502.20127)]
+- SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning [2025-02-arXiv] [[📄 paper](https://arxiv.org/abs/2502.20127)] ✅✅
 
-- SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution [2025-02-arXiv] [[📄 paper](https://arxiv.org/pdf/2502.18449)] [[🔗 repo](https://github.com/facebookresearch/swe-rl)]
+- SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution [2025-02-arXiv] [[📄 paper](https://arxiv.org/pdf/2502.18449)] [[🔗 repo](https://github.com/facebookresearch/swe-rl)] ✅✅
 
-- SWE-Fixer: Training Open-Source LLMs for Effective and Efficient GitHub Issue Resolution [2025-01-arXiv] [[📄 paper](https://arxiv.org/pdf/2501.05040)] [[🔗 repo](https://github.com/InternLM/SWE-Fixer)]
+- SWE-Fixer: Training Open-Source LLMs for Effective and Efficient GitHub Issue Resolution [2025-01-arXiv] [[📄 paper](https://arxiv.org/pdf/2501.05040)] [[🔗 repo](https://github.com/InternLM/SWE-Fixer)] ✅✅
 
-- CodeMonkeys: Scaling Test-Time Compute for Software Engineering [2025-01-arXiv] [[📄 paper](https://arxiv.org/abs/2501.14723)] [[🔗 repo](https://github.com/google-research/code-monkeys)]
+- CodeMonkeys: Scaling Test-Time Compute for Software Engineering [2025-01-arXiv] [[📄 paper](https://arxiv.org/abs/2501.14723)] [[🔗 repo](https://github.com/google-research/code-monkeys)] ✅✅
 
-- Training Software Engineering Agents and Verifiers with SWE-Gym [2024-12-arXiv] [[📄 paper](https://arxiv.org/pdf/2412.21139)] [[🔗 repo](https://github.com/SWE-Gym/SWE-Gym)]
+- Training Software Engineering Agents and Verifiers with SWE-Gym [2024-12-arXiv] [[📄 paper](https://arxiv.org/pdf/2412.21139)] [[🔗 repo](https://github.com/SWE-Gym/SWE-Gym)] ✅✅
 
-- CODEV: Issue Resolving with Visual Data [2024-12-arXiv] [[📄 paper](https://arxiv.org/pdf/2412.17315)] [[🔗 repo](https://github.com/luolin101/CodeV)]
+- CODEV: Issue Resolving with Visual Data [2024-12-arXiv] [[📄 paper](https://arxiv.org/pdf/2412.17315)] [[🔗 repo](https://github.com/luolin101/CodeV)] ✅✅
 
-- LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues [2024-11-arXiv] [[📄 paper](https://arxiv.org/pdf/2411.13941)]
+- LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues [2024-11-arXiv] [[📄 paper](https://arxiv.org/pdf/2411.13941)] ✅✅
 
 - Globant Code Fixer Agent Whitepaper [2024-11] [[📄 paper](https://ai.globant.com/wp-content/uploads/2024/11/Whitepaper-Globant-Code-Fixer-Agent.pdf)]
 
