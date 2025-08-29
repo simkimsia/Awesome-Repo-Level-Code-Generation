@@ -71,29 +71,29 @@
 
 - LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues [2024-11-arXiv] [[📄 paper](https://arxiv.org/pdf/2411.13941)] ✅✅
 
-- Globant Code Fixer Agent Whitepaper [2024-11] [[📄 paper](https://ai.globant.com/wp-content/uploads/2024/11/Whitepaper-Globant-Code-Fixer-Agent.pdf)]
+- Globant Code Fixer Agent Whitepaper [2024-11] [[📄 paper](https://ai.globant.com/wp-content/uploads/2024/11/Whitepaper-Globant-Code-Fixer-Agent.pdf)] ❌ (issue with getting bibtex)
 
-- MarsCode Agent: AI-native Automated Bug Fixing [2024-11-arXiv] [[📄 paper](https://arxiv.org/abs/2409.00899)]
+- MarsCode Agent: AI-native Automated Bug Fixing [2024-11-arXiv] [[📄 paper](https://arxiv.org/abs/2409.00899)] ✅✅
 
-- Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement [2024-11-arXiv] [[📄 paper](https://arxiv.org/html/2411.00622v1)] [[🔗 repo](https://github.com/LingmaTongyi/Lingma-SWE-GPT)]
+- Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement [2024-11-arXiv] [[📄 paper](https://arxiv.org/html/2411.00622v1)] [[🔗 repo](https://github.com/LingmaTongyi/Lingma-SWE-GPT)] ✅✅
 
-- SWE-Search: Enhancing Software Agents with Monte Carlo Tree Search and Iterative Refinement [2024-10-arXiv] [[📄 paper](https://arxiv.org/pdf/2410.20285)] [[🔗 repo](https://github.com/aorwall/moatless-tree-search)]
+- SWE-Search: Enhancing Software Agents with Monte Carlo Tree Search and Iterative Refinement [2024-10-arXiv] [[📄 paper](https://arxiv.org/pdf/2410.20285)] [[🔗 repo](https://github.com/aorwall/moatless-tree-search)] ✅✅
 
-- AutoCodeRover: Autonomous Program Improvement [2024-09-ISSTA] [[📄 paper](https://dl.acm.org/doi/10.1145/3650212.3680384)] [[🔗 repo](https://github.com/nus-apr/auto-code-rover)]
+- AutoCodeRover: Autonomous Program Improvement [2024-09-ISSTA] [[📄 paper](https://dl.acm.org/doi/10.1145/3650212.3680384)] [[🔗 repo](https://github.com/nus-apr/auto-code-rover)] ✅✅
 
-- SpecRover: Code Intent Extraction via LLMs [2024-08-arXiv] [[📄 paper](https://arxiv.org/abs/2408.02232)]
+- SpecRover: Code Intent Extraction via LLMs [2024-08-arXiv] [[📄 paper](https://arxiv.org/abs/2408.02232)] ✅✅
 
-- OpenHands: An Open Platform for AI Software Developers as Generalist Agents [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2407.16741)] [[🔗 repo](https://github.com/All-Hands-AI/OpenHands)]
+- OpenHands: An Open Platform for AI Software Developers as Generalist Agents [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2407.16741)] [[🔗 repo](https://github.com/All-Hands-AI/OpenHands)] ✅✅
 
-- AGENTLESS: Demystifying LLM-based Software Engineering Agents [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2407.01489)]
+- AGENTLESS: Demystifying LLM-based Software Engineering Agents [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2407.01489)] ✅✅
 
-- RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2410.14684)] [[🔗 repo](https://github.com/ozyyshr/RepoGraph)]
+- RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph [2024-07-arXiv] [[📄 paper](https://arxiv.org/abs/2410.14684)] [[🔗 repo](https://github.com/ozyyshr/RepoGraph)] ✅✅
 
-- CodeR: Issue Resolving with Multi-Agent and Task Graphs [2024-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2406.01304)] [[🔗 repo](https://github.com/NL2Code/CodeR)]
+- CodeR: Issue Resolving with Multi-Agent and Task Graphs [2024-06-arXiv] [[📄 paper](https://arxiv.org/pdf/2406.01304)] [[🔗 repo](https://github.com/NL2Code/CodeR)] ✅✅
 
-- Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.01422v2)]
+- Alibaba LingmaAgent: Improving Automated Issue Resolution via Comprehensive Repository Exploration [2024-06-arXiv] [[📄 paper](https://arxiv.org/abs/2406.01422v2)] ✅✅
 
-- SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering [2024-NeurIPS] [[📄 paper](https://arxiv.org/abs/2405.15793)] [[🔗 repo](https://github.com/SWE-agent/SWE-agent)]
+- SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering [2024-NeurIPS] [[📄 paper](https://arxiv.org/abs/2405.15793)] [[🔗 repo](https://github.com/SWE-agent/SWE-agent)] ✅✅
 
 ## 🤖 Repo-Level Code Generation
 
